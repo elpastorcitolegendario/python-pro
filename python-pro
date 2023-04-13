@@ -1,0 +1,20 @@
+meme_dict = {
+            "CRINGE": "Algo excepcionalmente raro o embarazoso",
+            "LOL": "Una respuesta común a algo gracioso",
+            "XD": "Significa que algo que es gracioso",
+            "HATER": "Persona que critica a otras por medio de las redes sociales",
+            "SEGUIDOR": "Persona a la que le gusta el contenido de alguien",
+            "INFLUENCER": "Persona que tiene muchos seguidores y es famosa",
+            "CHISME": "Dato secreto o curioso"
+            "ROLF": "una respuesta a una broma"
+            "SHEESH": "ligera desaprobación"
+            "CREEPY" "aterrador, siniestro"
+            "TO AGGRO": "aterrador, siniestro"
+            }
+            
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+
+if word in meme_dict.keys():
+    print(meme_dict[word])
+else:
+    print("No se reconoce esa palabra")
